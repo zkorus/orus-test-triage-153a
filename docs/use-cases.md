@@ -8,6 +8,19 @@ Each use case traces to at least one ADR and, once code exists, to at least one 
 
 | Id | Use case | Class | ADRs | Tests | Status |
 |---|---|---|---|---|---|
+| UC-1 | Divide one number by another | proposed | | | draft |
+
+## UC-1. A user divides one number by another
+
+**Actor:** a user of the calculator. **Goal:** get the quotient of one number divided by another.
+
+1. The user enters a dividend and a divisor.
+2. The calculator shows the quotient of the dividend divided by the divisor.
+3. If the divisor is zero, the calculator shows that the division cannot be done, and shows no quotient.
+
+**Done when:** for any two numbers with a non-zero divisor, the shown quotient equals the dividend divided by the divisor, and a zero divisor shows the message and no quotient.
+
+For #2.
 
 ## Template
 
