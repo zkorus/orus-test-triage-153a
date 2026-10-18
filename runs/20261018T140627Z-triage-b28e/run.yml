@@ -9,3 +9,7 @@ state: running
 resumes: null
 started: 2026-10-18T14:06:27Z
 role_commit: 7d7bde64a8dcb1d175425d7b629b08986b84d557
+checkpoint:
+  name: action
+  number: 1
+  at: 2026-10-18T14:07:12Z
